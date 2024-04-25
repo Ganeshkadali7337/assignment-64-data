@@ -1,0 +1,282 @@
+.side-bar {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+.cards-container2 {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 12%;
+}
+
+.cards-container {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-left: 75px;
+  padding-right: 20px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 12%;
+}
+
+.library-list {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: auto;
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  padding-left: 8px;
+}
+
+.library-card {
+  width: 180px;
+  height: 150px;
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 11px 0px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.library-heading {
+  font-size: 16px;
+}
+
+.library-icon {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.one {
+  color: #58c1f1;
+}
+
+.two {
+  color: #6e6ffb;
+}
+
+.three {
+  color: #ff4d59;
+}
+
+.four {
+  color: #ff7e57;
+}
+
+.five {
+  color: #0ecf8c;
+}
+
+.greeting {
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+}
+
+.greeting-container {
+  background-color: #272847;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.margin1 {
+  margin-right: 6px;
+}
+.margin2 {
+  margin-left: 15px;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 20px;
+}
+
+.collapse-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-open {
+  padding-left: 16px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: white;
+  margin-right: 25px;
+}
+
+.para {
+  font-size: 10px;
+  color: #616684;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.main-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 11px 0px;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.cards2-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.card3-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 11px 0px;
+  width: 370px;
+  align-self: flex-start;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.bottom-cards-container {
+  display: flex;
+}
+
+.para4 {
+  color: lightskyblue;
+}
+
+.list2 {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.View-More {
+  height: 35px;
+  width: 140px;
+  background-color: black;
+  border-width: 0px;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.recent-releases-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
+
+.container4 {
+  border-left: 1px solid gray;
+  padding-left: 12px;
+  margin-left: 10px;
+}
+
+.main-card3-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #58c1f1;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.heading3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.para5 {
+  font-size: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.dot {
+  margin-left: 3px;
+  color: gray;
+}
+
+.select {
+  width: 90px;
+  height: 30px;
+}
+
+@media (max-width: 767px) {
+  .bottom-cards-container {
+    flex-wrap: wrap;
+  }
+  .card3-container {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .notification {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .greeting {
+    font-size: 18px;
+  }
+  .para {
+    font-size: 12px;
+  }
+  .greeting-container {
+    height: 170px;
+  }
+  .bar-open {
+    margin-right: 35px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card3-container {
+    width: 500px;
+  }
+}
